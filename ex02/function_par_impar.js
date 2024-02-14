@@ -3,9 +3,9 @@ const prompt = require("prompt-sync")();
 function parImpar(numero) {
     let resultado = numero % 2;
     if (resultado === 0) {
-        console.log(`O número informado ${numero} é par.`);
+    return console.log(`O número informado ${numero} é par.`);
     } else {
-        console.log(`O número informado ${numero} é impar.`);
+    return console.log(`O número informado ${numero} é impar.`);
     }
 }
 
