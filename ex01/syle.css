@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    padding: 10% 5%;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    padding: 2% 0%;
+}
